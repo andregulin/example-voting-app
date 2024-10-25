@@ -1,12 +1,14 @@
 server:
   servlet:
     context-path: /treinamento-devops
+    
 spring:
   datasource:
     url: jdbc:postgresql://postgres-db:5432/meubanco
     username: meuusuario
     password: minhasenha
     driver-class-name: org.postgresql.Driver
+    
   jpa:
     hibernate:
       ddl-auto: update
